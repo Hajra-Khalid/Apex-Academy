@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="100%" height="100%">
+  <!-- Definition for Gradients and Styles -->
+  <defs>
+    <linearGradient id="apexGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <style>
+      .logo-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 32px; fill: #ffffff; }
+      .sub-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 14px; fill: #94a3b8; letter-spacing: 4px; }
+    </style>
+  </defs>
+
+  <!-- Icon: Modern A-shape with Graduation/Growth Peak -->
+  <g transform="translate(15, 15)">
+    <!-- Background Tech Hex/Diamond Layer -->
+    <path d="M 35 0 L 70 35 L 35 70 L 0 35 Z" fill="url(#apexGrad)" opacity="0.15"/>
+    
+    <!-- Outer Peak / Upward Arrow (Growth) -->
+    <path d="M 35 5 L 60 45 L 48 45 L 35 23 L 22 45 L 10 45 Z" fill="url(#apexGrad)"/>
+    
+    <!-- Inner Code Bracket / Core Line -->
+    <path d="M 35 32 L 43 47 L 38 47 L 35 41 L 32 41 L 29 47 L 24 47 Z" fill="#ffffff"/>
+    
+    <!-- Floating Pixel / Success Dot -->
+    <circle cx="35" cy="12" r="3.5" fill="#22c55e"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="105" y="48" class="logo-text">APEX<tspan fill="#06b6d4">.</tspan></text>
+  <text x="105" y="68" class="sub-text">ACADEMY</text>
+</svg>
